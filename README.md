@@ -1,55 +1,67 @@
 # aula1-git-github
+### ***<h3><p align="center">TUTORIAL BASICO GITHUB</p>***
+<!-- TOKEN: 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 -->
+  
+``Pré configuração para seu usuario:``
 
-Tutoriais GITHUB
-Pré configuração para seu usuario:
-git config --global --unset.all user.name
-git config --global --unset.all user.email
-git config --global user.name NOME-DO-USUARIO-GITHUB
-git config --global user.email EMAIL-DO-GITHUB
+<sub>git config --global --unset.all user.name</sub>
 
-para criar pasta:
-mkdir nome-da-pasta
+<sub>git config --global --unset.all user.email</sub>
 
-para acessar pasta:
-cd nome-da-pasta
+<sub>git config --global user.name NOME-DO-USUARIO-GITHUB</sub>
 
-para sair da pasta atual:
-cd ..
+<sub>git config --global user.email EMAIL-DO-GITHUB</sub>
 
-para iniciar o repositorio:
-git init
+``Para criar pasta:``
 
-para criar documentos:
-echo "# NOME-DA-PASTA" >> NOME-DO-ARQUIVO(.md)(.exe)(.bat).
-touch NOME-DO-ARQUIVO + EXTENÇÃO (.md)(.exe)(.bat).
+<sub>mkdir nome-da-pasta</sub>
 
-para listar itens da pasta:
-ls
+``Para acessar pasta:``
 
-para adicionar conteudo(arquivos) no repositorio:
-git add NOME-DO-ARQUIVO-PASTA
-git add . (ponto) [ADICIONA TODOS OS ARQUIVOS/PASTAS)
+<sub>cd nome-da-pasta</sub>
 
-para desfazer um add:
-git reset NOME-DO-ARQUIVO
-git reset (SEM-NOME-DO-ARQUIVO-PARA-DESFAZER-GERAL)
+``Para sair da pasta atual:``
 
-para deixar um comentario no arquivo:
-git commit -m "DESCRIÇÃO AQUI"
+<sub>cd ..</sub>
 
-para verificar se tem alguma alteração feita precisando de commit ou ver o status:
-git status
+``Para iniciar o repositorio:``
 
-para adicionar projeto do GIT para o GITHUB
-git remote add origin LINK-DA-PASTA-NO-GIT-HUB(EX:https://github.com/JoHoSantos/aula1-git-github.git)
-git branch -M main (para agregar a BRANCH)
+<sub>git init</sub>
 
-para ver alterações feita:
-git fetch
+``Para criar documentos:``
 
-para enviar/postar arquivo do GIT para o GITHUB
-git push -u origin main
+<sub>echo "# NOME-DA-PASTA" >> NOME-DO-ARQUIVO(.md)(.exe)(.bat). touch NOME-DO-ARQUIVO + EXTENÇÃO (.md)(.exe)(.bat).</sub>
 
+``Para listar itens da pasta:``
 
+<sub>ls</sub>
 
-.gitignore TOKEN: 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
+``Para adicionar conteudo(arquivos) no repositorio:``
+
+<sub>git add NOME-DO-ARQUIVO-PASTA</sub>
+<sub>git add . (ponto) [ADICIONA TODOS OS ARQUIVOS/PASTAS)</sub>
+
+``Para desfazer um add:``
+
+<sub>git reset NOME-DO-ARQUIVO</sub>
+<sub>git reset (SEM-NOME-DO-ARQUIVO-PARA-DESFAZER-GERAL)</sub>
+
+``Para deixar um comentario no arquivo:``
+
+<sub>git commit -m "DESCRIÇÃO AQUI"</sub>
+
+``Para verificar se tem alguma alteração feita precisando de commit ou ver o status:``
+
+<sub>git status</sub>
+
+``Para adicionar projeto do GIT para o GITHUB``
+
+<sub>git remote add origin LINK-DA-PASTA-NO-GIT-HUB(EX:https://github.com/JoHoSantos/aula1-git-github.git) git branch -M main (para agregar a BRANCH)</sub>
+
+``Para ver alterações feita:``
+
+<sub>git fetch</sub>
+
+``Para enviar/postar arquivo do GIT para o GITHUB``
+
+<sub>git push -u origin main</sub>
